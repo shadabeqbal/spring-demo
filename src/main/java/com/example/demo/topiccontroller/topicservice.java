@@ -11,7 +11,7 @@ public class topicservice {
     private List<topic> topics = new ArrayList<>(Arrays.asList(
             new topic("1","Spring","Spring Framework"),
             new topic("2","Java","Learning Java"),
-            new topic("3","C++","Learning C++")
+            new topic("3","DS/Algo","Learning Data Structures and Algorithms")
     ));
 
     public List<topic> getAlltopics(){
