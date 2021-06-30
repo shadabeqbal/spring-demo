@@ -14,7 +14,7 @@ public class topiccontroller {
 
     @RequestMapping("/")
     public String sayHi(){
-        return "Hello Everyone, building an deploying an api";
+        return "Hello Everyone, building an deploying an api<br> Try with endpoints /topics, /topic/1";
     }
 
     @RequestMapping("/topics")
