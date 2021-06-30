@@ -14,7 +14,7 @@ public class topiccontroller {
 
     @RequestMapping("/")
     public String sayHi(){
-        return "Hello Everyone, building an deploying an api<br> Try with endpoints /topics, /topic/1";
+        return "<h2 style='text-align: center;'>Hello Everyone, building an deploying an api</h2><br><br> Try with endpoints:<br><br> <a href='https://javaspring-restapi.herokuapp.com/topics'>topics</a><br><a href='https://javaspring-restapi.herokuapp.com/topic/1'>topic 1</a><br><a href='https://javaspring-restapi.herokuapp.com/topic/2'>topic 2</a><br><a href='https://javaspring-restapi.herokuapp.com/topic/3'>topic 3</a>";
     }
 
     @RequestMapping("/topics")
