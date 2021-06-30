@@ -12,6 +12,11 @@ public class topiccontroller {
     @Autowired
     private topicservice ts;
 
+    @RequestMapping("/")
+    public String sayHi(){
+        return "Hello Everyone, building an deploying an api";
+    }
+
     @RequestMapping("/topics")
     public List<topic> getAllTopics(){
         return ts.getAlltopics();
